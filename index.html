@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Debounce/Throttling</title>
+  </head>
+  <body id="random-bg">
+    <div class="buttons">
+      <button onclick="debounceFunction()">
+        Debounce<span class="buttons__time">600ms</span>
+      </button>
+      <button onclick="throttleFunction()">
+        Throttle<span class="buttons__time">1500ms</span>
+      </button>
+    </div>
+
+    <div id="container"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
